@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">GoogleLoginExample</string>
+    <string name="login_button">Log in with google account</string>
+    <string name="title_activity_glelogin">GLELoginActivity</string>
+
+</resources>
