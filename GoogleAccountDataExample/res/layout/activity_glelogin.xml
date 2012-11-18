@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <Button
+    <Button android:id="@+id/google_login_buttom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -11,5 +11,15 @@
         android:text="@string/login_button"
         tools:context=".GLELoginActivity" 
         android:onClick="googleAccount"/>
+    
+    
+    <TextView android:id="@+id/google_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+   
+    
 
 </RelativeLayout>

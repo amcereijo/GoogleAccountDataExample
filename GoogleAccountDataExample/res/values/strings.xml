@@ -3,5 +3,12 @@
     <string name="app_name">GoogleLoginExample</string>
     <string name="login_button">Log in with google account</string>
     <string name="title_activity_glelogin">GLELoginActivity</string>
+    
+    <string name="error_no_google_accounts">No gmail account found in your phone!!</string>
+    
+    <string name="load_data_progreess_title">Google Connection</string>
+    <string name="load_data_progreess_message">Loading data for %s</string>
+    
+    <string name="load_data_error">Error loading data for %</string>
 
 </resources>
